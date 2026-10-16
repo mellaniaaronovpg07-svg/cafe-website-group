@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu & Inovasi — Café Miraelan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page-cafe">
+
+    <!-- FLOATING BUTTONS -->
+    <div class="floating-container">
+        <button class="floating-btn theme-toggle-float" id="themeToggle" aria-label="Ubah Mode Gelap/Terang" title="Mode Gelap/Terang">
+            <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="https://wa.me/6281234567890?text=Halo%20Caf%C3%A9%20Miraelan,%20saya%20ingin%20bertanya%20mengenai%20menu%20dan%20layanan." class="floating-btn wa-float" target="_blank" aria-label="Chat WhatsApp" title="WhatsApp Us">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo"><span>Café Miraelan</span></div>
+        <div class="nav-right-container">
+            <ul class="nav-links">
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#team">Pendiri</a></li>
+                <li><a href="#reviews">Ulasan</a></li>
+                <li><a href="#location">Lokasi</a></li>
+                <li><a href="foods.html">Menu</a></li>
+            </ul>
+            <div class="more-options-wrapper">
+                <button class="btn-dots" aria-label="Menu Opsi Tambahan">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="drink.html"><i class="fa-solid fa-mug-hot"></i> Menu Minuman</a>
+                    <a href="foods.html"><i class="fa-solid fa-utensils"></i> Menu Makanan</a>
+                    <a href="snacks.html"><i class="fa-solid fa-cookie-bite"></i> Menu Snack</a>
+                    <a href="https://instagram.com/miraelan" target="_blank"><i class="fa-brands fa-instagram" style="color: var(--ig-color);"></i> Instagram Kami</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20reservasi%20meja." target="_blank"><i class="fa-solid fa-calendar-check"></i> Reservasi Meja</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20berminat%20dengan%20info%20kemitraan." target="_blank"><i class="fa-solid fa-handshake"></i> Info Kemitraan</a>
+                    <a href="#location"><i class="fa-solid fa-map-location-dot"></i> Petunjuk Arah</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20bantuan." target="_blank"><i class="fa-brands fa-whatsapp" style="color: var(--wa-color);"></i> Bantuan (WhatsApp)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-section" id="about">
+        <div class="hero-top-content">
+            <div class="hero-text-left">
+                <span class="tag-label">Inovasi Seduhan & Pangan</span>
+                <h1>Formulasi Presisi Untuk Pengalaman Kopi Terbaik.</h1>
+            </div>
+            <div class="hero-text-right">
+                <p>Setiap sajian dalam daftar menu kami diracik berbasis standar laboratorium R&D, menggabungkan biji kopi pilihan lokal dan formulasi bahan baku berkualitas tinggi.</p>
+                <div class="hero-action-buttons">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Caf%C3%A9%20Miraelan,%20saya%20ingin%20memesan." target="_blank" class="btn-wa">
+                        <i class="fa-brands fa-whatsapp fa-lg"></i> Pesan via WA
+                    </a>
+                    <a href="https://instagram.com/miraelan" target="_blank" class="btn-ig">
+                        <i class="fa-brands fa-instagram fa-lg"></i> Follow IG
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bottom-bar">
+            <div class="hero-location-info">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Jl. Raya Puputan No.25, Denpasar, Bali & 10 Cabang Resmi Indonesia</span>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot"></span> Flagship Store & Lab Open
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="stat-box">
+            <div class="stat-number">99.8%</div>
+            <div class="stat-label">Sangat Menyukai Cafe & Menu</div>
+            <div class="stat-subtext">Dari Total 1 Miliar Ulasan Global</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">10</div>
+            <div class="stat-label">Cabang Beroperasi</div>
+            <div class="stat-subtext">Kota-Kota Besar Indonesia</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">1 Miliar+</div>
+            <div class="stat-label">Porsi Makanan & Minuman</div>
+            <div class="stat-subtext">Disajikan Secara Presisi</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Bahan Baku Organik</div>
+            <div class="stat-subtext">Biji Arabika Kualitas Tinggi</div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team-section" id="team">
+        <div class="section-header">
+            <span class="tag-label" style="color:var(--accent-brand);">Sosok Di Balik Layar</span>
+            <h2>Pemegang & Tim Pendiri Kafe</h2>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-img-wrapper"><img src="https://lh3.googleusercontent.com/d/1PDUPgohkQk0gIFVzy_YN0yIId0u9ODTA" alt="Melan"></div>
+                <div class="team-info">
+                    <h3>Melan</h3>
+                    <div class="team-role">Founder & CEO</div>
+                    <p class="team-bio">Memimpin arah visi bisnis serta ekspansi 10 cabang Café Miraelan & Kopi Lab di Indonesia.</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/st4r_1ann" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-img-wrapper"><img src="https://lh3.googleusercontent.com/d/1TwLd3W1vUViE1jjOAXVigXnCChrbwcMU" alt="Mikha"></div>
+                <div class="team-info">
+                    <h3>Mikha</h3>
+                    <div class="team-role">Co-Founder & Head Barista</div>
+                    <p class="team-bio">Peracik utama rasa dan penanggung jawab R&D formulasi menu seduhan kopi presisi.</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/mikha_lethizia" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-img-wrapper"><img src="https://lh3.googleusercontent.com/d/1d4FSAO7X0Qs5KUKuJMWf9IGuS--32dVZ" alt="Rahel"></div>
+                <div class="team-info">
+                    <h3>Rahel</h3>
+                    <div class="team-role">Chief Operating Officer</div>
+                    <p class="team-bio">Mengontrol standar mutu layanan, pasokan bahan organik, serta operasional harian kafe.</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/rachel_a.a" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-img-wrapper"><img src="https://lh3.googleusercontent.com/d/1xRf4KcVog4nuaSYYSrbopZs-MMJX8otW" alt="Elvira"></div>
+                <div class="team-info">
+                    <h3>Elvira</h3>
+                    <div class="team-role">Pastry & Culinary Director</div>
+                    <p class="team-bio">Mengembangkan resep pastry artisanal khas Prancis dan kreasi kudapan pendamping kopi.</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/elvragvnni_" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU FAVORIT -->
+    <section class="menu-section" id="menu">
+        <div class="section-header">
+            <span class="tag-label" style="color:var(--accent-brand);">Menu Kurasi R&D</span>
+            <h2>Daftar Menu Favorit</h2>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="menu-img-box">
+                    <span class="badge-innovation">Formula Signatur</span>
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Kopi Susu Miraelan Signatur">
+                </div>
+                <div class="menu-body">
+                    <div class="menu-title-row">
+                        <h3>Kopi Susu Miraelan</h3>
+                        <span class="menu-price">Rp 28.000</span>
+                    </div>
+                    <p class="menu-desc">Espresso berbasis house-blend dipadukan dengan nira aren murni berindeks glikemik rendah dan susu segar steril.</p>
+                    <div class="menu-tags">
+                        <span class="tag-pill">Low-GI Aren</span>
+                        <span class="tag-pill">House Blend</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-box">
+                    <span class="badge-innovation">Riset Mikro-Filtrasi</span>
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80" alt="Sea Salt Caramel Cold Brew">
+                </div>
+                <div class="menu-body">
+                    <div class="menu-title-row">
+                        <h3>Sea Salt Caramel</h3>
+                        <span class="menu-price">Rp 35.000</span>
+                    </div>
+                    <p class="menu-desc">Konsentrat cold brew 24 jam bertabur ramuan sea salt kristal alami dan krim sirup karamel artisanal.</p>
+                    <div class="menu-tags">
+                        <span class="tag-pill">Low Acid</span>
+                        <span class="tag-pill">24h Brew</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-box">
+                    <span class="badge-innovation">Artisanal Bakery</span>
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Butter Croissant">
+                </div>
+                <div class="menu-body">
+                    <div class="menu-title-row">
+                        <h3>Butter Croissant</h3>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                    <p class="menu-desc">Pastry buatan rumah yang diolah menggunakan 100% mentega murni Prancis melalui teknik pemanggangan bertahap.</p>
+                    <div class="menu-tags">
+                        <span class="tag-pill">Fresh Daily</span>
+                        <span class="tag-pill">French Butter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews-section" id="reviews">
+        <div class="reviews-header">
+            <div>
+                <span class="tag-label" style="color:var(--accent-brand);">Kata Pelanggan</span>
+                <h2 style="font-family: var(--font-heading); font-size: 2.2rem; text-transform: uppercase;">Ulasan Google Maps</h2>
+            </div>
+            <div class="gmaps-score-card">
+                <div class="gmaps-score">5.0</div>
+                <div class="gmaps-details">
+                    <div class="stars-gold">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span><i class="fa-brands fa-google"></i> <b>99.8% Menyukai Cafe & Menu</b></span>
+                    <span>Diapresiasi oleh 1 Miliar+ Penikmat di 10 Cabang</span>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">BS</div>
+                        <div class="reviewer-meta"><h4>Budi Santoso</h4><span>Local Guide Google</span></div>
+                    </div>
+                    <div class="stars-gold" style="margin-bottom: 0.8rem;">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"Kopi Susu Miraelan racikannya benar-benar pas! Gula arennya lembut dan aman di perut. Rating 5 bintang buat rasa makanan dan minumannya!"</p>
+                </div>
+                <div><span class="review-tag">Makanan & Minuman</span></div>
+            </div>
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar" style="background-color: #3B5998;">AN</div>
+                        <div class="reviewer-meta"><h4>Anisa Nurhakiki</h4><span>Ulasan Terverifikasi</span></div>
+                    </div>
+                    <div class="stars-gold" style="margin-bottom: 0.8rem;">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"Croissant-nya sangat flakiness dan wangi butter Prancis-nya berasa banget. Dipadukan sama Sea Salt Caramel Cold Brew rasanya seimbang!"</p>
+                </div>
+                <div><span class="review-tag">Pastry & Kopi</span></div>
+            </div>
+            <div class="review-card">
+                <div class="review-top">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar" style="background-color: #2E7D32;">RP</div>
+                        <div class="reviewer-meta"><h4>Reza Pratama</h4><span>Local Guide Google</span></div>
+                    </div>
+                    <div class="stars-gold" style="margin-bottom: 0.8rem;">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"Senang banget sekarang sudah ada 10 cabang! Konsistensi rasa makanan dan minumannya dari satu cabang ke cabang lain tetap sama presisinya."</p>
+                </div>
+                <div><span class="review-tag">10 Cabang & Standar</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location-section" id="location">
+        <div class="section-header">
+            <span class="tag-label" style="color:var(--accent-brand);">Kunjungi Outlet & Lab</span>
+            <h2>Lokasi Utama Denpasar, Bali</h2>
+        </div>
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2587563821045!2d115.22384117592474!3d-8.666938288214156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409053335555%3A0x6b87d9efae772183!2sJl.%20Raya%20Puputan%20No.25%2C%20Dangin%20Puri%20Klod%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="cafe-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Café Miraelan & Kopi Innovation Lab</h4>
+                <p>Pusat Riset & Pengembangan Minuman Nusantara</p>
+                <p>Jaringan 10 Cabang Flagship & Innovation Hub di Indonesia</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/Miraelan" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/6281234567890" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigasi</h4>
+                <a href="#about">Tentang Kami</a>
+                <a href="#team">Pendiri & Pemegang</a>
+                <a href="#menu">Menu Favorit</a>
+                <a href="#reviews">Ulasan Google Maps</a>
+                <a href="#location">Lokasi 10 Cabang</a>
+                <a href="drink.html">Menu Minuman</a>
+                <a href="foods.html">Menu Makanan</a>
+                <a href="snacks.html">Menu Snack</a>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <p>Ikuti kabar dan promo terbaru di Instagram kami:</p>
+                <a href="https://instagram.com/Miraelan" target="_blank" class="btn-ig" style="margin-top: 0.5rem;">
+                    <i class="fa-brands fa-instagram fa-lg"></i> @Miraelan
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 PT Café Miraelan Inovasi Indonesia. Seluruh hak cipta dilindungi.
+        </div>
+    </footer>
+
+    <script src="theme.js"></script>
+</body>
+</html>

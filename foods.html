@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Makanan — Café Miraelan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page-foods">
+
+    <!-- FLOATING BUTTONS -->
+    <div class="floating-container">
+        <button class="floating-btn theme-toggle-float" id="themeToggle" aria-label="Ubah Mode Gelap/Terang">
+            <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="https://wa.me/6281234567890?text=Halo%20Caf%C3%A9%20Miraelan,%20saya%20ingin%20pesan%20menu%20makanan." class="floating-btn wa-float" target="_blank" aria-label="Chat WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo"><span>Café Miraelan</span></div>
+        <div class="nav-right-container">
+            <ul class="nav-links">
+                <li><a href="index.html#about">Tentang Kami</a></li>
+                <li><a href="index.html#team">Pendiri</a></li>
+                <li><a href="index.html#reviews">Ulasan</a></li>
+                <li><a href="index.html#location">Lokasi</a></li>
+                <li><a href="foods.html" class="active">Menu</a></li>
+            </ul>
+            <div class="more-options-wrapper">
+                <button class="btn-dots" aria-label="Menu Opsi Tambahan">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="drink.html"><i class="fa-solid fa-mug-hot"></i> Menu Minuman</a>
+                    <a href="foods.html"><i class="fa-solid fa-utensils"></i> Menu Makanan</a>
+                    <a href="snacks.html"><i class="fa-solid fa-cookie-bite"></i> Menu Snack</a>
+                    <a href="https://instagram.com/miraelan" target="_blank"><i class="fa-brands fa-instagram" style="color: var(--ig-color);"></i> Instagram Kami</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20reservasi%20meja." target="_blank"><i class="fa-solid fa-calendar-check"></i> Reservasi Meja</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20berminat%20dengan%20info%20kemitraan." target="_blank"><i class="fa-solid fa-handshake"></i> Info Kemitraan</a>
+                    <a href="index.html#location"><i class="fa-solid fa-map-location-dot"></i> Petunjuk Arah</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20bantuan." target="_blank"><i class="fa-brands fa-whatsapp" style="color: var(--wa-color);"></i> Bantuan (WhatsApp)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="menu-tabs-section">
+    <nav class="menu-tabs-nav">
+        <a href="drink.html" class="menu-tab">Minuman</a>
+        <a href="foods.html" class="menu-tab active">Makanan</a>
+        <a href="snacks.html" class="menu-tab">Snack</a>
+        <a href="index.html" class="menu-tab tab-home">Beranda</a>
+    </nav>
+</section>
+
+    <main class="foods-content">
+        <h1>Menu Makanan Berat</h1>
+        <p class="subtitle">Resto Miraelan</p>
+
+        <div class="menu-container">
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80" alt="Nasi Goreng">
+                <div class="menu-info">
+                    <h2>Nasi Goreng Spesial</h2>
+                    <p>Nasi goreng dengan telur, ayam, sayuran, dan bumbu pilihan.</p>
+                    <span class="price">Rp25.000</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=800&q=80" alt="Ayam Bakar">
+                <div class="menu-info">
+                    <h2>Ayam Bakar</h2>
+                    <p>Ayam bakar berbumbu khas, disajikan dengan nasi dan sambal.</p>
+                    <span class="price">Rp30.000</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80" alt="Ayam Penyet">
+                <div class="menu-info">
+                    <h2>Ayam Penyet</h2>
+                    <p>Ayam goreng gurih dengan sambal pedas dan lalapan segar.</p>
+                    <span class="price">Rp28.000</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Pizza">
+                <div class="menu-info">
+                    <h2>Pizza Daging</h2>
+                    <p>Pizza dengan topping daging, saus tomat, dan keju.</p>
+                    <span class="price">Rp45.000</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Beef Burger">
+                <div class="menu-info">
+                    <h2>Beef Burger</h2>
+                    <p>Roti burger dengan daging sapi, sayuran, dan saus spesial.</p>
+                    <span class="price">Rp35.000</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80" alt="Mie Ayam">
+                <div class="menu-info">
+                    <h2>Mie Ayam Spesial</h2>
+                    <p>Mie kenyal dengan topping ayam berbumbu dan sayuran.</p>
+                    <span class="price">Rp22.000</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="theme.js"></script>
+</body>
+</html>

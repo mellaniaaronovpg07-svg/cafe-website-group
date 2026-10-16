@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Minuman — Café Miraelan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page-drink">
+
+    <!-- FLOATING BUTTONS -->
+    <div class="floating-container">
+        <button class="floating-btn theme-toggle-float" id="themeToggle" aria-label="Ubah Mode Gelap/Terang">
+            <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="https://wa.me/6281234567890?text=Halo%20Caf%C3%A9%20Miraelan,%20saya%20ingin%20bertanya%20soal%20menu%20minuman." class="floating-btn wa-float" target="_blank" aria-label="Chat WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo"><span>Café Miraelan</span></div>
+        <div class="nav-right-container">
+            <ul class="nav-links">
+                <li><a href="index.html#about">Tentang Kami</a></li>
+                <li><a href="index.html#team">Pendiri</a></li>
+                <li><a href="index.html#reviews">Ulasan</a></li>
+                <li><a href="index.html#location">Lokasi</a></li>
+                <li><a href="foods.html">Menu</a></li>
+            </ul>
+            <div class="more-options-wrapper">
+                <button class="btn-dots" aria-label="Menu Opsi Tambahan">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="drink.html"><i class="fa-solid fa-mug-hot"></i> Menu Minuman</a>
+                    <a href="foods.html"><i class="fa-solid fa-utensils"></i> Menu Makanan</a>
+                    <a href="snacks.html"><i class="fa-solid fa-cookie-bite"></i> Menu Snack</a>
+                    <a href="https://instagram.com/miraelan" target="_blank"><i class="fa-brands fa-instagram" style="color: var(--ig-color);"></i> Instagram Kami</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20reservasi%20meja." target="_blank"><i class="fa-solid fa-calendar-check"></i> Reservasi Meja</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20berminat%20dengan%20info%20kemitraan." target="_blank"><i class="fa-solid fa-handshake"></i> Info Kemitraan</a>
+                    <a href="index.html#location"><i class="fa-solid fa-map-location-dot"></i> Petunjuk Arah</a>
+                    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20bantuan." target="_blank"><i class="fa-brands fa-whatsapp" style="color: var(--wa-color);"></i> Bantuan (WhatsApp)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="menu-tabs-section">
+    <nav class="menu-tabs-nav">
+        <a href="drink.html" class="menu-tab active">Minuman</a>
+        <a href="foods.html" class="menu-tab">Makanan</a>
+        <a href="snacks.html" class="menu-tab">Snack</a>
+        <a href="index.html" class="menu-tab tab-home">Beranda</a>
+    </nav>
+</section>
+
+    <!-- DRINK MENU -->
+    <main class="menu-page">
+        <header class="hero">
+            <span class="eyebrow">A Cozy Place to Stay</span>
+            <h1>Café Miraelan</h1>
+            <p class="tagline">A Little Sip of Bali, A Lot of Warmth</p>
+            <p class="subtitle">Coffee · Comfort · Good Moments</p>
+        </header>
+
+        <section class="menu-content">
+            <div class="intro">
+                <span class="small-label">Our Beverage Selection</span>
+                <h2>Menu Minuman</h2>
+                <p>Every sip holds a little happiness.</p>
+                <div class="ornament">✳</div>
+            </div>
+
+            <section class="category">
+                <div class="category-heading">
+                    <span class="number">01</span>
+                    <h3>COFFEE</h3>
+                    <span class="line"></span>
+                    <span class="leaf">❧</span>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item"><span class="name">Espresso-Based</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Manual Brew</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Americano</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Butterscotch</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Latte</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Cappuccino</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Mocha</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Flat White</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Macchiato</span><span class="dot">✦</span></div>
+                </div>
+            </section>
+
+            <section class="category non-coffee">
+                <div class="category-heading">
+                    <span class="number">02</span>
+                    <h3>NON-COFFEE</h3>
+                    <span class="line"></span>
+                    <span class="leaf">❧</span>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item"><span class="name">Cokelat</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Teh</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Susu</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Matcha</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Red Velvet</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Milkshake</span><span class="dot">✦</span></div>
+                    <div class="menu-item"><span class="name">Smoothies</span><span class="dot">✦</span></div>
+                </div>
+            </section>
+        </section>
+
+        <footer class="drink-footer">
+            <div class="footer-brand">Café Miraelan</div>
+            <p>Made of friendship, shared over a cup.</p>
+            <div class="footer-ornament">✳ · ❧ · ✳</div>
+        </footer>
+    </main>
+
+    <script src="theme.js"></script>
+</body>
+</html>
